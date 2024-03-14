@@ -1,6 +1,4 @@
-# frozen_string_literal: true
-
-$:.push File.expand_path('lib', __dir__)
+$:.push File.expand_path("../lib", __FILE__)
 
 require "sparkpost_rails/version"
 
@@ -13,7 +11,6 @@ Gem::Specification.new do |s|
   s.summary     = "SparkPost for Rails"
   s.description = "Delivery Method for Rails ActionMailer to send emails using the SparkPost API"
   s.license     = 'MIT'
-  s.required_ruby_version = '>= 3.1.0', '< 3.3.0'
 
   s.files = Dir["{lib}/**/*"] + ["LICENSE", "README.md"]
   s.test_files = Dir["{spec}/**/*"]
