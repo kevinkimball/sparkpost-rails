@@ -127,7 +127,7 @@ GEM
       psych (>= 4.0.0)
     reline (0.4.3)
       io-console (~> 0.5)
-    rexml (3.2.6)
+    rexml (3.3.9)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -155,6 +155,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  arm64-darwin-24
   x86_64-darwin-23
 
 DEPENDENCIES
